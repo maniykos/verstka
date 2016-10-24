@@ -1,0 +1,86 @@
+/* resize table begin */
+.wp-table-resize td label {
+    display: none;
+}
+.wp-table-resize .wp-show-info-bt {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .wp-table-resize{
+        display: block;
+        width:100%;
+    }
+    .wp-table-resize thead{
+        display: block;
+        width:100%;
+    }
+    .wp-table-resize thead tr{
+        display: block;
+        width:100%;
+    }
+    .wp-table-resize tbody{
+        display: block;
+        width:100%;
+    }
+    .wp-table-resize tbody tr{
+        display: block;
+        border-bottom: 1px solid #ddd;
+    }
+    .wp-table-resize thead th {
+        display: none;
+    }
+
+    .wp-table-resize thead th:nth-child(1) {
+        display: block;
+        width: 100%;
+    }
+
+    .wp-table-resize thead th:nth-child(1) {
+        display: block;
+        width: 100%;
+    }
+
+    .wp-table-resize td {
+        border: none !important;
+        clear: both;
+        display: block;
+        position: relative;
+        width:100%;
+        word-break: break-all;
+    }
+
+    .wp-table-resize td label {
+        display: inline-block;
+        float: left;
+        line-height: 20px;
+        margin: 0;
+        padding-right: 10px;
+        font-weight: bold;
+    }
+
+    .wp-table-resize .wp-show-info-bt {
+        position: absolute;
+        display: block;
+        right: 0;
+        top:    0;
+        line-height: 20px;
+        padding: 8px 10px;
+    }
+    .wp-show-info-bt:active, .wp-show-info-bt:focus { outline: none !important; }
+
+
+    .wp-table-resize tbody tr td:nth-child(1) {
+        padding-right: 34px;
+        border-bottom: 1px solid #ddd !important;
+    }
+
+    .wp-table-resize tbody tr td:nth-child(n+2) {
+        display: none;
+    }
+
+    .wp-table-resize tbody tr.is_expanded td {
+        display: block;
+    }
+}
+/* resize table end */
