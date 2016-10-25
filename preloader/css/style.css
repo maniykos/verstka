@@ -1,0 +1,18 @@
+/* preloader begin */
+.jpreloader{
+    background-color: #111214;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    display: block;
+    z-index: 90000;
+    background-image: url("images/preloader.gif");
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+/* preloader end */
